@@ -1,0 +1,37 @@
+{
+  "name": "COLLECTED | 눈길을 사로잡는 인생 작품",
+  "short_name": "COLLECTED",
+  "description": "COLLECTED에서 인생 작품을 찾아보세요",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon/icon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/icon/icon@2x.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/icon/icon@3x.png",
+      "type": "image/png",
+      "sizes": "216x216"
+    },
+    {
+      "src": "/icon/icon@4x.png",
+      "type": "image/png",
+      "sizes": "288x288"
+    },
+    {
+      "src": "/icon/icon@5x.png",
+      "type": "image/png",
+      "sizes": "360x360"
+    }
+  ]
+}
