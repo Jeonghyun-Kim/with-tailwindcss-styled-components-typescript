@@ -5,6 +5,7 @@ import React from 'react';
 import type { AppProps } from 'next/app';
 import Router from 'next/router';
 import NProgress from 'nprogress';
+import { Head } from '@components/core';
 
 NProgress.configure({
   minimum: 0.3,
@@ -18,7 +19,12 @@ Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head />
+      <Component {...pageProps} />
+    </>
+  );
 };
 
 export default App;

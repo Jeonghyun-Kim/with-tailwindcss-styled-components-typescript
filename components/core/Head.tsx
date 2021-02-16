@@ -2,7 +2,7 @@ import React from 'react';
 import NextHead from 'next/head';
 
 interface Props {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Head: React.FC<Props> = ({ children, ...props }) => {
